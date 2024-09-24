@@ -1,0 +1,11 @@
+.accountContainer {
+    width: calc(100% - 4rem);
+    display: flex;
+    justify-content: center;
+    padding: 6rem 2rem;
+}
+
+.account {
+    width: 500px;
+    height: 500px;
+}

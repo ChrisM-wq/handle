@@ -1,0 +1,26 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    /* width: 240px; */
+    width: 60px;
+    top: 60px;
+    border-right: #353535 1px solid;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+
+.highlight {
+    color: #1A9BC3;
+}
+
+.link {
+    color: #353535;
+    transition: all 0.3s;
+}
+
+.link:hover {
+    color: #1A9BC3;
+}

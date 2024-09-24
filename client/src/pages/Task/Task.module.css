@@ -1,0 +1,9 @@
+.spacingContainer {
+    margin-left: 240px;
+    margin-top: 64px;
+}
+
+.contents {
+    padding: 2em;
+    max-width: 1000px;
+}

@@ -1,0 +1,26 @@
+.searchBox {
+    font-size: 16px;
+    color: #353535;
+    width: 760px;
+    background-color: #e0e0e0;
+    outline: none;
+    border: none;
+    height: 45px;
+    border-radius: 20px;
+    padding-inline: 20px;
+    text-indent: 1rem;
+}
+/* .searchBox:focus{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+} */
+
+.searchIcon {
+    color: rgb(118, 118, 118);
+    position: absolute;
+    height: 47px;
+    /* display: flex; */
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
+}

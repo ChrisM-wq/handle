@@ -1,0 +1,46 @@
+.mainDetailsContainer {
+    display: flex;
+    flex-direction: column;
+}
+.links {
+    display: flex;
+    padding: 1em 0;
+    font-size: 20px;
+}
+.title {
+    font-size: 24px;
+    padding: 0 0 1em 0;
+    font-weight: 600;
+}
+.tools {
+    display: flex;
+    font-size: 18px;
+    color: #333;
+    gap: 2em;
+}
+.subTools {
+    display: flex;
+    gap: 6px;
+}
+
+.endTools {
+    display: flex;
+    gap: 15px;
+}
+.verticalLine {
+    width: 2px;
+    background-color: #727272;
+}
+.descriptionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 4em 0;
+}
+.descriptionTitle {
+    font-size: 18px;
+    font-weight: 600;
+}
+.description {
+    font-size: 16px;
+}

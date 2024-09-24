@@ -1,0 +1,32 @@
+.oAuthButton {
+    border: none;
+    width: 300px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 0 1rem;
+    font-family: var(--font-family);
+}
+
+.googleButton {
+    border: 2px solid #353535;
+    color: #1a1a1a;
+    background-color: #fff;
+    height: 40px;
+}
+
+.githubButton {
+    background-color: #353535;
+    height: 40px;
+    color: #fff;
+}
+
+.facebookButton {
+    height: 40px;
+    background-color: #3b5998;
+    color: #fff;
+}

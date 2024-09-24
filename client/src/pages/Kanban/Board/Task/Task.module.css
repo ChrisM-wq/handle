@@ -1,0 +1,40 @@
+
+.categoryItems {
+    color: #353535;
+    width: calc(80% - 10px);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #dddddd;
+    margin: 1em 0 0 0;
+    
+    /* border-image: linear-gradient(#1A9BC4, #D04699); */
+}
+.onHold {
+    border-left: 10px solid #E63946;
+}
+.backlog {
+    border-left: 10px solid #353535;
+}
+.inProgress {
+    border-left: 10px solid #1A9BC3;
+}
+.inReview {
+    border-left: 10px solid #FDE74C;
+}
+.complete {
+    border-left: 10px solid #64F58D;
+}
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 1em;
+}
+
+.summary {
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 1em;
+}

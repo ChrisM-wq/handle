@@ -1,0 +1,79 @@
+.avatar {
+    width: 30px;
+    border-radius: 50px;
+}
+.profile {
+     background-color: #7575758c;
+     display: flex;
+     align-items: flex-end;
+     border-radius: 50px;
+     gap: 1rem;
+     padding-right: 0.5rem;
+     
+     transition: all 0.3s ease;
+     height: 30px;
+     color: #fff;
+     flex-direction: column;
+}
+.name {
+    padding-left: 0.5rem;
+}
+.profile:hover {
+    background-color: #7575755a;
+}
+
+.nameContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+/* .dropdown {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    width: 150px;
+    top: 50px;
+    /* display: flex; 
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #e0e0e0;
+    
+    z-index: 5;
+    border-radius: 10px;
+}
+ */
+
+
+
+.dropdownWrapper {
+    position: absolute;
+    width: 200px;
+  }
+  
+  .dropdown {
+    background-color: #353535;
+    color: #fff;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    gap: 0.5rem;
+    width: 100px;
+    height: max-content;
+    position: absolute;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+    border-radius: 10px;
+  }
+
+  .dropdownLink {
+    text-decoration: none;
+    color: #fff;
+  }
+
+.dropdownLink:hover {
+    font-weight: 500;
+    color: #ffffffa0;
+}
